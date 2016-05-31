@@ -17,9 +17,9 @@ function config ($stateProvider, $urlRouterProvider) {
       url: '/menu',
       templateUrl: 'templates/menu.tpl.html',
     })
-    .state('root.candy', {
-      url: '/candy',
-      templateUrl: 'templates/candy.tpl.html',
+    .state('root.gallery', {
+      url: '/gallery',
+      templateUrl: 'templates/gallery.tpl.html',
     })
     .state('root.reviews', {
       url: '/reviews',
