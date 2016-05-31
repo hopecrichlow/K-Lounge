@@ -17,6 +17,26 @@ function config ($stateProvider, $urlRouterProvider) {
       url: '/menu',
       templateUrl: 'templates/menu.tpl.html',
     })
+    .state('root.candy', {
+      url: '/candy',
+      templateUrl: 'templates/candy.tpl.html',
+    })
+    .state('root.reviews', {
+      url: '/reviews',
+      templateUrl: 'templates/reviews.tpl.html',
+    })
+    .state('root.mine', {
+      url: '/mine',
+      templateUrl: 'templates/disclaimer.tpl.html',
+    })
+    .state('root.yours', {
+      url: '/yours',
+      templateUrl: 'templates/disclaimer.tpl.html',
+    })
+    .state('root.contact', {
+      url: '/contact',
+      templateUrl: 'templates/contact.tpl.html',
+    })
   ;
 
 }
