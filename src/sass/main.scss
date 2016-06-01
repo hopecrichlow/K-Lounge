@@ -1,11 +1,39 @@
+$body-background: url('../images/peacock.jpg') repeat-y fixed;
+$content-color: white;
+
 @import "bulma";
 
-.wrapper {
+
+.nav {
+  background: transparent;
+  padding: 0 15px;
 }
 
-p {
-  padding: 5px;
+.hero {
+  margin-top: 20em;
+  height: 5em;
+  .content {
+  }
 }
-.nav {
-  padding: 0 15px;
+
+.section {
+  background: transparent;
+  min-height: 790px;
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1em;
+  }
+    .title {
+      color: $white;
+      font-family: fantasy;
+      margin-bottom: 1em;
+    }
+    .content {
+      color: $white;
+      margin-bottom: 2em;
+      .box {
+        background: transparent;
+      }
+    }
 }
