@@ -1,11 +1,9 @@
 import angular from 'angular';
-import 'angular-ui-router';
 
-// Import Our Configuration
-import { config } from './config';
+console.log('AngularJS Version:',
 
-//Start Angular
-angular
-  .module('app', ['ui.router'])
-  .config(config)
-;
+angular.version.full);
+// Import Other Modules
+import './app.core/index';
+
+angular.module('app', ['app.core']);
