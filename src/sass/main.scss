@@ -1,5 +1,6 @@
-$body-background: linear-gradient(to right, rgba(255,255,255,0), rgba(30,75,155,1)), url('../images/peacock.jpg') bottom fixed no-repeat;
+$body-background: linear-gradient(to left, rgba(255,255,255,0), rgba(11,11,11,1)), url('../images/peacock.jpg') fixed repeat;
 $content-color: white;
+$grey-dark: #222324;
 $grey-lighter: #f5f7fa;
 $text: $grey-lighter;
 
