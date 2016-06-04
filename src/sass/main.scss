@@ -1,12 +1,21 @@
-$body-background: url('../images/peacock.jpg') no-repeat fixed;
+$body-background: linear-gradient(to right, rgba(255,255,255,0), rgba(30,75,155,1)), url('../images/peacock.jpg') bottom fixed no-repeat;
 $content-color: white;
+$grey-lighter: #f5f7fa;
+$text: $grey-lighter;
 
 @import "bulma";
 
-
+body {
+  background-size: cover;
+}
 .nav {
   background: transparent;
   padding: 0 15px;
+  .nav-left h1 {
+    color: white;
+    font-size: 32px;
+    font-family: cursive;
+  }
 }
 
 .hero {
@@ -35,5 +44,9 @@ $content-color: white;
       .box {
         background: transparent;
       }
+    }
+    .table {
+      color: $text;
+      background: transparent;
     }
 }

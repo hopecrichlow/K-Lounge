@@ -8,4 +8,4 @@ import { config } from './config';
 angular
   .module('app', ['ui.router'])
   .config(config)
-;
+  ;
