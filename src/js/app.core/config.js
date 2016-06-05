@@ -16,6 +16,7 @@ function config ($stateProvider, $urlRouterProvider) {
     .state('root.menu', {
       url: '/menu',
       templateUrl: 'templates/menu.tpl.html',
+      controller: 'ReadRateController as vm'
     })
     .state('root.gallery', {
       url: '/gallery',
